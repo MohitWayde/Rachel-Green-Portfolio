@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.green-bookmark {
+    display: block;
+    background-color: #a3cb38;
+    width: 315px;
+    height: 410px;
+    position: absolute;
+    top: 0px;
+    left: 65%;
+    z-index: -1;
+
+}
+
+.my-navbar{
+    display: flex;
+    height: 120px;
+    padding-left: 130px;
+    text-transform: uppercase;
+}
+
+.my-ul-items{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.my-li-items{
+    margin:0 20% 0 0;
+}
+
+/* ==================== */
+
+/* MYSELF-CONTAINER started */
+.myself-container{
+    
+    display: flex;
+    align-items: center;
+}
+
+.myself-info{
+    padding: 50px 250px 0 70px;
+}
+
+.my-photo{
+    padding: 50px 80px 0 0;
+}
+
+/* ===my main hustle */
+.my-main-hustle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5%;
+}
+
+.hustle-part1{
+    display: flex;
+    /* padding: 10px 0 0 60px; */
+    flex-direction: column;
+    align-items: left;
+    width: 180%;
+   
+}
+.hustle-part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200%;
+    
+}
+.hustle-part3{
+    display: flex;
+    width: 100%;
+    
+}
+
+.hustle-part1 h1{
+    text-align: left;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.green-color{
+    color: #a3cb38;
+}
+
+
+/* =====my work===== */
+
+.my-work-text{
+    padding: 5% 30% 0 30%;
+}
+
+.my-work-text p, .my-work-text h1{
+    text-align: center;
+    padding: 10% 0 0 0;
+}
+
+
+
+.my-work-card{
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    justify-content: center;
+    align-items: center;  
+    padding: 3%;
+
+}
+.my-work-card p{
+    font-size: 11px;
+    text-align: left;
+}
+.my-work-card-set{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5% 15% 5% 15%;
+    align-items: center;
+    width: 100%;
+}
+
+.my-work-card img{
+    width: 100px;
+    height: 100px;
+}
+
+.my-work-card-text{
+    width: 50%;
+}
+
+.my-work-card-text p,h4{
+    padding: 5% 0 5% 0;
+    line-height: 17px;
+    text-align: center;
+}
+
+/* =========my-proud-section===== */
+
+.my-proud-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.proud-card-set{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.proud-card{
+    display: flex;
+    width: 34%;
+    flex-direction: row;
+    margin: 3%;
+}
+
+.my-proud-header-section{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.proud-head-self{
+    margin-right: 75px;
+}
+
+.my-proud-header-section h1{
+    text-align: left;
+    font-size: 60px;
+    color: white;
+    
+    
+}
+/* ====my-side-hustle-section */
+.my-side-hustle-section{
+    padding: 5%;  
+    display: flex;
+    width: 100%;
+}
+
+.my-side-hustle-headings{
+    width: 50%;
+}
+.my-side-hustle-head-self{
+    width: 50%;
+}
+.my-side-hustle-section h1{
+    font-size: 60px;
+    color: #a3cb38;
+    margin-bottom: 10px;
+}
+
+.my-side-hustle-imgs{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+.guitar{
+    width: 250px;
+    height: 270px;
+}
+.friends{
+    width: 200px;
+    height: 190px;
+    margin: -70px 0 0 0;
+    
+}
+.painting{
+    width: 250px;
+    height: 180px;
+}
+
+.reading{
+    width: 200px;
+    height: 200px;
+    margin: -180px 0 0 0;
+}
+
+.badminton {
+    width: 200px;
+    height: 150px;
+    margin: -150px 0 0 0;
+}
+
+.footer-class{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: white;
+}
+
+.my-contact-details{
+    width: 30%;
+    background-color: #a3cb38;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+.all-right-res{
+    margin:0 7% 5% 0 ;
+    color: black;
+}
+
+
+.social-icons{
+    padding: 10px 10px 10px 0;
+}
+/* ============Utilities============== */
+
+.my-btn{
+    margin: 20px 0 0 0;
+    padding: 10px;
+    background-color: #a3cb38;
+    border: none;
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
+.green-overline{
+    text-decoration: overline;
+    text-decoration-color: #a3cb38;
+    text-decoration-thickness: 5px;
+    display: inline;
+    height: 0;
+}
+
+.my-proud-header-gree-box{
+    display: block;
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    top: 1700px;
+    z-index: -1;
+    right: 10px;
+    background-color: #a3cb38;
+}
+
+.align-self-left{
+    align-self: center;
+}
